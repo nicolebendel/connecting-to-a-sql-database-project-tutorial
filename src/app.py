@@ -104,4 +104,4 @@ INSERT INTO book_authors (book_id, author_id) VALUES (10, 1);""")
 # 4) Use pandas to print one of the tables as dataframes using read_sql function
 
 df = pd.read_sql("SELECT * FROM authors", engine)
-print(df)
+print(df)  
